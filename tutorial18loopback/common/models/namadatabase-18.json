@@ -1,0 +1,38 @@
+{
+  "name": "namadatabase18",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "nama": {
+      "type": "string",
+      "required": true
+    },
+    "deskripsi": {
+      "type": "string",
+      "required": true
+    },
+    "kategori": {
+      "type": "string",
+      "required": true
+    },
+    "foto_profil": {
+      "type": "string",
+      "required": true
+    },
+    "label": {
+      "type": "string"
+    },
+    "harga": {
+      "type": "string",
+      "required": true,
+      "default": "0"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

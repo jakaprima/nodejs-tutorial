@@ -1,0 +1,4 @@
+npm install stringloop -g
+slc loopback
+slc loopback:model
+node .
